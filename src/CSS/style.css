@@ -1,0 +1,98 @@
+body {
+    background: url(../img/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 60px;
+}
+
+.centralizar .texto {
+    width: 310px;
+    height: 120px;
+    color: white;
+    position: relative;
+}
+
+.centralizar .texto h1 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.centralizar .texto p {
+    font-weight: 400;
+}
+
+.centralizar .container {
+    width: 340px;
+    min-height: 380px;
+    background-color: white;
+    padding: 20px;
+}
+
+.centralizar .container .boxs {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 400;
+    margin-top: 0.8vh;
+}
+
+.centralizar .container .boxs::placeholder {
+   font-weight: 700;
+}
+
+.centralizar .container .box2 {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 8px 0 75px 10px;
+    margin-top: 10px;
+}
+
+.centralizar .container p:nth-of-type(5) {
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.centralizar .container .btn {
+    width: 300px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    color: white;
+    cursor: pointer;
+}
+
+.obs {
+    display: none;
+}
+
+.negado {
+    display: block;
+    font-weight: 400;
+    font-size: 8px;
+    color: #F52E2E;
+}
+
+.boxs, .box2 {
+    border: 1px solid #000;
+}
+
+.borderRed {
+    border: 1px solid red;
+}
+
+.borderVerde {
+    border: 1px solid green;
+}

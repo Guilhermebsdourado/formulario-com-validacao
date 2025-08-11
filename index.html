@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/CSS/resete.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <title>Quest HTML + CSS + JS Intermediário</title>
+</head>
+
+<body>
+    <main>
+        <div class="centralizar">
+            <section class="texto">
+                <h1>FICOU COM DÚVIDA? <br>
+                    NOS MANDE UMA MENSAGEM!</h1>
+
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </section>
+            <div class="container">
+                <form action="#">
+                    
+                    <label for="nome"></label>                   
+                    <input type="text" class="boxs" id="nome" placeholder="Nome completo *">
+                    <p class="obs">
+                        campo obrigatório
+                    </p>
+
+                    <label for="email"></label>
+                    <input type="email" class="boxs" id="email" placeholder="Email *">
+                    <p class="obs">
+                        campo obrigatório
+                    </p>
+
+                    <label for="telefone"></label>
+                    <input type="tel" class="boxs" id="telefone" placeholder="Telefone *">
+                    <p class="obs">
+                        campo obrigatório
+                    </p>
+
+
+                    <label for="mensagem"></label>
+                    <input type="text" class="box2" id="mensagem" placeholder="Mensagem *">
+                    <p class="obs">
+                        campo obrigatório
+                    </p>
+
+                    <p>*campos obrigatórios</p>
+                    <button class="btn" onclick="mostrarMensagem()">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/JS/index.js"></script>
+</body>
+
+</html>
