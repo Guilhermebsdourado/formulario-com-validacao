@@ -6,7 +6,8 @@ function mostrarMensagem() {
         
         if (campo.value.trim() === "") {
             obs[index].classList.add("negado");
-            campo.classList.add("borderRed")     
+            campo.classList.add("borderRed");
+            campo.classList.remove("borderVerde");     
         }else {
             obs[index].classList.remove("negado");
             campo.classList.remove("borderRed");
