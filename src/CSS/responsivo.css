@@ -1,0 +1,22 @@
+@media(max-width: 710px){
+    .centralizar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 350px){
+    .centralizar .container {
+        width: 90%;
+        min-height: 380px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .centralizar .texto,
+    .centralizar .container .boxs,
+    .centralizar .container .box2,
+    .centralizar .container .btn{
+        width: 100%;
+    }
+}
